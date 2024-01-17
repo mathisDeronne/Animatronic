@@ -1,7 +1,7 @@
 **COMPOSANTS A TESTER**
 -
 
-- Pont en H (& moteur)  => Elio
+- Pont en H (& moteur)  => Elio Nathan
 
 - Matrice Led => Lionel, Mathys
 
