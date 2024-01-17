@@ -7,8 +7,6 @@
 
 - Esp cam  => Tanguy, Eunic
 
-- switch
-
 
 **COMPOSANTS TESTES**
 -
@@ -16,3 +14,6 @@
 - Joystick  => Yanice
 
 - Capteur Ultason => Equipe prog (Tanguy)
+
+
+**En cours de Prog**E
