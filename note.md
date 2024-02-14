@@ -43,8 +43,3 @@ Cela permet de mieux se répartir les tâches selon les préférences de chacun 
 
  Impression des premières pièces importantes (base et tête où se trouve le support de la matrice LED) pour la version V1 du corps du robot
    -> voir si les dimensions correspondent sinon apporter des modifications pour prochaine version.
-
-Travail en cours
-Finir de programmer tout les capteurs
-Version 1 complète avec assemblage
-c'est la synthèse en readme a push sil te plait
