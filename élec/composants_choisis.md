@@ -10,4 +10,5 @@
 - [boutons (6)](https://fr.rs-online.com/web/p/interrupteurs-tactiles/7856260?cm_mmc=FR-PLA-DS3A-_-google-_-CSS_FR_FR_PMAX_Catch+All-_--_-7856260&matchtype=&gclid=Cj0KCQjwhL6pBhDjARIsAGx8D58hkP2zvBcM6ZSsGj70YbIfFDQaYlgsnROFUcGeCE2slgCaL6OLbkgaAhupEALw_wcB&gclsrc=aw.ds)
 - [Joystick](https://fr.aliexpress.com/item/33008515489.html?src=google&src=google&albch=shopping&acnt=248-630-5778&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&src=google&albch=shopping&acnt=248-630-5778&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=fr33008515489&ds_e_product_merchant_id=109322169&ds_e_product_country=FR&ds_e_product_language=fr&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=20180143197&albag=&isSmbAutoCall=false&needSmbHouyi=false&gclid=Cj0KCQjwhL6pBhDjARIsAGx8D5-kAtjfX8s6l4WcTNShROrc2K4E9ik5wta78_6or-dTMzSfnwYqn2YaAjVWEALw_wcB&aff_fcid=88f8a76b756f41d98fe7bd168d8e2701-1697636068928-05029-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=88f8a76b756f41d98fe7bd168d8e2701-1697636068928-05029-UneMJZVf&terminal_id=7bbf46ce86504fd1a636561c1006598a&afSmartRedirect=y)
 
-- batterie lipo 11V (2)
+- batterie lipo 11V 5000 mAh
+- batterie lipo 7.4V 800 mAh

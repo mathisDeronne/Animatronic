@@ -7,8 +7,6 @@
 
 - caméra d'ESP32 : **2A** - **5V**
 
-- Matrice led 8x8 : **max 0.2A** - **2.5V**
-
 - Haut parleur : **0.05** - **5V**
 
 - Joystick :  **0.002A** - **3.3V**
@@ -17,9 +15,10 @@ tensions robot : **5V - 7.2V**
 
 Tensions manette : **3.3V - 5V**
 
-Intensité totale = 0.76 + 0.04 + 0.52 + 2 + 0.2 + 0.05 + 0.002 = **3.572A**
+Intensité totale = 0.76 + 0.04 + 0.52 + 2 + 0.05 + 0.002 = **3.372A**
 
-Intensité robot : 0.76 + 0.04 + 0.26 + 2 + 0.2 + 0.05 = **3.31A**
+Intensité robot : 0.76 + 0.04 + 0.26 + 2 + 0.05 = **3.11A**
 
 Intensité manette : 0.26 + 0.002 = **0.262A**
 
+²
