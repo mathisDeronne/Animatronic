@@ -1,8 +1,10 @@
 from machine import Pin, time_pulse_us
 import time
 
-TRIG_PIN = 27
-ECHO_PIN = 14
+class UltraSens:
+    def __init__(self, trig_pin, echo_pin):
+# TRIG_PIN = 27
+# ECHO_PIN = 14
 SOUND_SPEED = 340  # Vitesse du son dans l'air
 TRIG_PULSE_DURATION_US = 10
 
