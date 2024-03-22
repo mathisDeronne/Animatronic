@@ -1,6 +1,5 @@
 from machine import Pin, ADC
 import machine
-import time
 
 class Joystick(object):
     _x_center = 1789.0
@@ -8,10 +7,9 @@ class Joystick(object):
     _pos_x = 4095.0 - _x_center
     _pos_y = 4095.0 - _y_center
 
-    def __init__(self, x_pin, y_pin, button_pin):
+    def __init__(self, x_pin, y_pin):
         self._jx = ADC(Pin(x_pin))
         self._jy = ADC(Pin(y_pin))
-        self._js = Pin(button_pin, Pin.IN, Pin.PULL_UP)
         
         self._jx.width(machine.ADC.WIDTH_12BIT)
         self._jy.width(machine.ADC.WIDTH_12BIT)
@@ -20,7 +18,6 @@ class Joystick(object):
         
         self._x = 0.0
         self._y = 0.0
-        self._button = False
         
         self._index = 0
         self._xA = [0, 0, 0]
@@ -35,11 +32,6 @@ class Joystick(object):
     def y(self):
         '''Return value from -1.0 to 1.0.'''
         return self._y
-
-    @property
-    def button(self):
-        '''return True or False.'''
-        return self._button
 
     def update(self):
         self._xA[self._index] = self._jx.read()
@@ -57,12 +49,12 @@ class Joystick(object):
         self._y = ry / dy
 
         # Value is 1 when not pressed and 0 when pressed.
-        self._button = not self._js.value()
+        
 
 # Usage example:
-joystick = Joystick(15, 2, 4)  # Adjust pin numbers as per your wiring
+joystick = Joystick(35, 34)  # Adjust pin numbers as per your wiring
 
 while True:
     joystick.update()
-    print("X:", joystick.x, "Y:", joystick.y, "Button:", joystick.button)
+    print("X:", joystick.x, "Y:", joystick.y)
     machine.sleep(200)  # Adjust sleep time as needed

@@ -11,7 +11,7 @@ class Speaker:
             for sample in wf.samples():
                 self.speaker_pwm.duty(sample)
                 time.sleep_us(int(1000000 / wf.rate))
-
+                
     def stop_audio(self):
         self.speaker_pwm.duty(0)
 
