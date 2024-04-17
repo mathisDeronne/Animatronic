@@ -5,20 +5,16 @@
 
 - ESP32 (2) : 0.26A x 2 = **0.52A** - **5V**  
 
-- caméra d'ESP32 : **2A** - **5V**
-
 - Haut parleur : **0.05** - **5V**
-
-- Joystick :  **0.002A** - **3.3V**
 ___
 tensions robot : **5V - 7.2V**
 
-Tensions manette : **3.3V - 5V**
+Tensions manette : **5V**
 
-Intensité totale = 0.76 + 0.04 + 0.52 + 2 + 0.05 + 0.002 = **3.372A**
+Intensité totale = 0.76 + 0.04 + 0.52 + 0.05 = **1.370A**
 
-Intensité robot : 0.76 + 0.04 + 0.26 + 2 + 0.05 = **3.11A**
+Intensité robot : 0.76 + 0.04 + 0.26 + 0.05 = **1.11A**
 
-Intensité manette : 0.26 + 0.002 = **0.262A**
+Intensité manette : 0.26 + 0.002 = **0.260A**
 
 ²
