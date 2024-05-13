@@ -16,7 +16,7 @@ class UltraSens:
         self.trig_pin.value(0)
 
         ultrason_duration = time_pulse_us(self.echo_pin, 1, 30000)  # Renvoie le temps de propagation de l'onde (en µs)
-        distance_cm = (self.sound_speed * ultrason_duration) / 20000
+        distance_cm = (self.sound_speed * ultrason_duration) / 20000 # Renvoie la distance en cm entre le capteur et l'obstacle
 
         return distance_cm
 
