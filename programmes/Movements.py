@@ -15,7 +15,6 @@ class DCMotor:
         self.pin1.value(1)
         self.pin2.value(0)
         
-
     def two(self, speed):
         self.speed = speed
         self.enable_pin.duty(self.duty_cycle(self.speed))
@@ -36,27 +35,26 @@ class DCMotor:
 
 frequency = 1000
 
-m1_pin1 = Pin(26, Pin.OUT)
-m1_pin2 = Pin(25, Pin.OUT)
+m1_pin1 = Pin(22, Pin.OUT)
+m1_pin2 = Pin(23, Pin.OUT)
 m1_enable = PWM(Pin(27), frequency)
 
 dc_AVD = DCMotor(m1_pin1, m1_pin2, m1_enable)
 
-m2_pin1 = Pin(33, Pin.OUT)
-m2_pin2 = Pin(32, Pin.OUT)
+m2_pin1 = Pin(4, Pin.OUT)
+m2_pin2 = Pin(16, Pin.OUT)
 m2_enable = PWM(Pin(14), frequency)
 
 dc_ARD = DCMotor(m2_pin1, m2_pin2, m2_enable)
 
-
-m3_pin1 = Pin(22, Pin.OUT)
-m3_pin2 = Pin(21, Pin.OUT)
+m3_pin1 = Pin(19, Pin.OUT)
+m3_pin2 = Pin(18, Pin.OUT)
 m3_enable = PWM(Pin(23), frequency)
 
 dc_AVG = DCMotor(m3_pin1, m3_pin2, m3_enable)
 
-m4_pin1 = Pin(19, Pin.OUT)  
-m4_pin2 = Pin(18, Pin.OUT)  
+m4_pin1 = Pin(2, Pin.OUT)  
+m4_pin2 = Pin(15, Pin.OUT)  
 m4_enable = PWM(Pin(5), frequency)
 
 dc_ARG = DCMotor(m4_pin1, m4_pin2, m4_enable)
