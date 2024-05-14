@@ -77,8 +77,6 @@ def Backward() :
 def LD() :
     print("LD") #Left_diagonal
     dc_AVD.one(100)
-    dc_ARD.two(100)
-    dc_AVG.two(100)
     dc_ARG.one(100)
     sleep(1)
 def RD() :
